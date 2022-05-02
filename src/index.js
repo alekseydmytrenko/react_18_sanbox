@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import AppTransition from './App_transition';
+import AppDeferredValue from "./App_defered_value";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppTransition />
+    {/*<AppTransition />*/}
+    <AppDeferredValue />
   </React.StrictMode>
 );
 
