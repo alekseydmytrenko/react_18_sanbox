@@ -5,6 +5,7 @@ import AppTransition from './App_transition';
 import AppDeferredValue from "./App_defered_value";
 import AppUseId from "./App_use_id"
 import AppSyncExternalStore from "./App_sync_external_store"
+import AppInsertionEffect from "./App_insertion_effect"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +14,8 @@ root.render(
     {/*<AppTransition />*/}
     {/*<AppDeferredValue />*/}
     {/*<AppUseId />*/}
-    <AppSyncExternalStore />
+    {/*<AppSyncExternalStore />*/}
+    <AppInsertionEffect />
   </React.StrictMode>
 );
 
