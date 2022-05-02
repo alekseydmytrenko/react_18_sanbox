@@ -10,7 +10,7 @@ const SlowUI = ({ value }) => (
   </>
 );
 
-function App() {
+function AppTransition() {
   const [value, setValue] = useState(0);
   const [value2, setValue2] = useState(100000);
   const [isPending, startTransition] = useTransition();
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppTransition;
